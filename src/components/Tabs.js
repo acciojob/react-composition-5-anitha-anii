@@ -21,7 +21,7 @@ const Tabs = ({ tabs }) => {
         ))}
       </ul>
       <div className="tab-content">
-        <p>content for {tabs[activeTab].title}</p>
+        <p>Content for {tabs[activeTab].title}</p>
       </div>
     </div>
   );
